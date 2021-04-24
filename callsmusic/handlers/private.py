@@ -37,7 +37,7 @@ The commands I currently support are:
             [
                 [
                     InlineKeyboardButton(
-                        'Group', url='https://t.me/callsmusicchat',
+                        'Creator', url='https://t.me/HKrrish',
                     ),
                     InlineKeyboardButton(
                         'Channel', url='https://t.me/callsmusic',
