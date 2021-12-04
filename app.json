@@ -1,0 +1,42 @@
+{
+    "name": "Callmusic",
+    "repository": "https://github.com/Pradeep-iKp/callsmusic-2",
+    "env": {
+        "SESSION_NAME": {
+            "description": "",
+            "required": "True"
+        },
+        "BOT_TOKEN": {
+            "description": "",
+            "required": "True"
+        },
+        "API_ID": {
+            "description": "",
+            "required": "True"
+        },
+        "API_HASH": {
+            "description": "",
+            "required": "True"
+        },
+        "SUDO_USERS": {
+            "description": "",
+            "required": "True"
+        },
+        "DURATION_LIMIT": {
+            "description": "",
+            "required": "True"
+        }
+    },
+    "stack": "heroku-20",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
